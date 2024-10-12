@@ -1,0 +1,22 @@
+1728742237828	geckodriver	INFO	Listening on 127.0.0.1:62975
+1728742240950	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62976" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofiley2OYVR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1728742241393	Marionette	INFO	Marionette enabled
+1728742241793	Marionette	INFO	Listening on port 62983
+WebDriver BiDi listening on ws://127.0.0.1:62976
+Read port: 62983
+1728742242103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62976/devtools/browser/19c078f8-0195-4355-8af3-e04bc780e704
+JavaScript warning: https://www.amazon.com/, line 1888: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/s?k=Ferrari+458&ref=nb_sb_noss, line 5826: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1728742251448	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1728742251450	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.amazon.com/Bburago-Ferrari-Pista-Diecast-Model/dp/B07NDLL77T/ref=sr_1_1?dib=eyJ2IjoiMSJ9.U--NHNSojewyph4Bxn0FW0czP7dr7kkwC-Ngk5cJqsANeCFMTMa5WkWxEKcSyOKeMVQ3arMTMwPJwvgYL8qec0x3C5mIBcc6hDo08T5wGieSDZMRHavQFwSrsH1y5tO42NxWXAxgt2COq-TLAjosfukf3FtI1fgrlQoGpXyvdpFe-lSD7dtuFzme3Z_rnsR_ZL29Ej3vihpvLgDc308NVo54XI62XcqG8NIatqo-Up-8Awaw2NQiMzYsjpwIs-_mcIy5oK5bIzFelmFvw44IjTjLTxvvc7v8hwEdhLYPohI.q_x0RGIjz4LaxVZzdpCMrExn99yS21mcWyVmkC4I9lU&dib_tag=se&keywords=Ferrari+458&qid=1728742248&sr=8-1, line 12004: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/cart/add-to-cart/ref=dp_start-bbf_1_glance, line 3038: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1728742299520	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1728742301151	Marionette	INFO	Stopped listening on port 62983
+Dynamically enable window occlusion 1
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_untrustedmodules_ping

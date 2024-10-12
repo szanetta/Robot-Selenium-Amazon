@@ -1,0 +1,19 @@
+1728741575656	geckodriver	INFO	Listening on 127.0.0.1:62881
+1728741578760	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62882" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileqOW73q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1728741579254	Marionette	INFO	Marionette enabled
+1728741579673	Marionette	INFO	Listening on port 62889
+WebDriver BiDi listening on ws://127.0.0.1:62882
+Read port: 62889
+1728741579982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62882/devtools/browser/5a8d2f10-e4e9-49c5-b6c4-abb9a872269c
+JavaScript warning: https://www.amazon.com/, line 1894: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/s?k=Ferrari+458&ref=nb_sb_noss, line 6192: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Bburago-Ferrari-Pista-Diecast-Model/dp/B07NDLL77T/ref=sr_1_1?dib=eyJ2IjoiMSJ9.U--NHNSojewyph4Bxn0FW0czP7dr7kkwC-Ngk5cJqsANeCFMTMa5WkWxEKcSyOKeMVQ3arMTMwPJwvgYL8qec0x3C5mIBcc6hDo08T5wGieSDZMRHavQFwSrsH1y5tO42NxWXAxgt2COq-TLAjosfukf3FtI1fgrlQoGpXyvdpFe-lSD7dtuFzme3Z_rnsR_ZL29Ej3vihpvLgDc308NVo54XI62XcqG8NIatqo-Up-8Awaw2NQiMzYsjpwIs-_mcIy5oK5bIzFelmFvw44IjTjLTxvvc7v8hwEdhLYPohI.3vrq4DqVeJ4tweYI3txKDzwlZ8oh23eQRRp2sHLig9o&dib_tag=se&keywords=Ferrari+458&qid=1728741586&sr=8-1, line 12109: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/cart/add-to-cart/ref=dp_start-bbf_1_glance, line 3044: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1728741637457	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1728741638108	Marionette	INFO	Stopped listening on port 62889
+JavaScript error: https://images-na.ssl-images-amazon.com/images/I/71v46YykigL.js?AUIClients/FWCIMAssets, line 571: NS_ERROR_OUT_OF_MEMORY
+Dynamically enable window occlusion 1
