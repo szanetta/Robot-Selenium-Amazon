@@ -1,112 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1 (Python 3.12.6 on win32)" generated="2024-10-12T16:10:36.925784" rpa="false" schemaversion="5">
+<robot generator="Robot 7.1 (Python 3.12.6 on win32)" generated="2024-10-13T04:53:58.649180" rpa="false" schemaversion="5">
 <suite id="s1" name="Amazon" source="C:\Users\User\Robot-Selenium-Amazon\amazon\tests\amazon.robot">
 <test id="s1-t1" name="User must sign in to check out" line="9">
 <kw name="Begin Web Test" owner="Common">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-10-12T16:10:37.286972" level="INFO">Opening browser 'firefox' to base url 'about:blank'.</msg>
+<msg time="2024-10-13T04:53:59.206669" level="INFO">Opening browser 'firefox' to base url 'about:blank'.</msg>
 <arg>about:blank</arg>
 <arg>firefox</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-10-12T16:10:37.285972" elapsed="8.030509"/>
+<status status="PASS" start="2024-10-13T04:53:59.206669" elapsed="9.935239"/>
 </kw>
-<status status="PASS" start="2024-10-12T16:10:37.284973" elapsed="8.032507"/>
+<status status="PASS" start="2024-10-13T04:53:59.206669" elapsed="9.935239"/>
 </kw>
 <kw name="Search for Products" owner="Amazon">
+<kw name="Load" owner="LandingPage">
 <kw name="Go To" owner="SeleniumLibrary">
-<msg time="2024-10-12T16:10:45.337470" level="INFO">Opening url 'https://www.amazon.com/'</msg>
+<msg time="2024-10-13T04:54:09.175675" level="INFO">Opening url 'https://www.amazon.com/'</msg>
 <arg>https://www.amazon.com/</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2024-10-12T16:10:45.337470" elapsed="2.831085"/>
+<status status="PASS" start="2024-10-13T04:54:09.175675" elapsed="2.932545"/>
 </kw>
+<status status="PASS" start="2024-10-13T04:54:09.175675" elapsed="2.932545"/>
+</kw>
+<kw name="Verify Page Loaded" owner="LandingPage">
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
 <arg>Your Account</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2024-10-12T16:10:48.169555" elapsed="0.074370"/>
+<status status="PASS" start="2024-10-13T04:54:12.116221" elapsed="0.184386"/>
 </kw>
+<status status="PASS" start="2024-10-13T04:54:12.108220" elapsed="0.193387"/>
+</kw>
+<kw name="Search for Products" owner="TopNav">
+<kw name="Enter Search Term" owner="TopNav">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-10-12T16:10:48.244924" level="INFO">Typing text 'Ferrari 458' into text field 'id=twotabsearchtextbox'.</msg>
+<msg time="2024-10-13T04:54:12.305606" level="INFO">Typing text 'Ferrari 458' into text field 'id=twotabsearchtextbox'.</msg>
 <arg>id=twotabsearchtextbox</arg>
 <arg>Ferrari 458</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-10-12T16:10:48.243925" elapsed="0.359887"/>
+<status status="PASS" start="2024-10-13T04:54:12.304604" elapsed="0.336607"/>
 </kw>
+<status status="PASS" start="2024-10-13T04:54:12.303606" elapsed="0.337605"/>
+</kw>
+<kw name="Submit Search" owner="TopNav">
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-10-12T16:10:48.604811" level="INFO">Clicking button 'xpath=//*[@id="nav-search-submit-button"]'.</msg>
+<msg time="2024-10-13T04:54:12.649387" level="INFO">Clicking button 'xpath=//*[@id="nav-search-submit-button"]'.</msg>
 <arg>xpath=//*[@id="nav-search-submit-button"]</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-10-12T16:10:48.604811" elapsed="2.318139"/>
+<status status="PASS" start="2024-10-13T04:54:12.649317" elapsed="2.475869"/>
 </kw>
+<status status="PASS" start="2024-10-13T04:54:12.641211" elapsed="2.485023"/>
+</kw>
+<status status="PASS" start="2024-10-13T04:54:12.301607" elapsed="2.824847"/>
+</kw>
+<kw name="Verify Search Completed" owner="SearchResults">
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
 <arg>results for "Ferrari 458"</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2024-10-12T16:10:50.923949" elapsed="0.046855"/>
+<status status="PASS" start="2024-10-13T04:54:15.126454" elapsed="0.106249"/>
 </kw>
-<status status="PASS" start="2024-10-12T16:10:45.336469" elapsed="5.634335"/>
+<status status="PASS" start="2024-10-13T04:54:15.126454" elapsed="0.106249"/>
+</kw>
+<status status="PASS" start="2024-10-13T04:54:09.175675" elapsed="6.057028"/>
 </kw>
 <kw name="Select Product from Search Results" owner="Amazon">
+<kw name="Click Product Link" owner="SearchResults">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-10-12T16:10:50.973804" level="INFO">Clicking element 'css=div.sg-col-4-of-24:nth-child(6)'.</msg>
+<msg time="2024-10-13T04:54:15.232703" level="INFO">Clicking element 'css=div.sg-col-4-of-24:nth-child(6)'.</msg>
 <arg>css=div.sg-col-4-of-24:nth-child(6)</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-10-12T16:10:50.972806" elapsed="4.283970"/>
+<status status="PASS" start="2024-10-13T04:54:15.232703" elapsed="3.645344"/>
 </kw>
+<status status="PASS" start="2024-10-13T04:54:15.232703" elapsed="3.645344"/>
+</kw>
+<kw name="Verify Page Loaded" owner="Product">
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
 <arg>Product information</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2024-10-12T16:10:55.256776" elapsed="0.122420"/>
+<status status="PASS" start="2024-10-13T04:54:18.886046" elapsed="0.095992"/>
 </kw>
-<status status="PASS" start="2024-10-12T16:10:50.972806" elapsed="4.406390"/>
+<status status="PASS" start="2024-10-13T04:54:18.886046" elapsed="0.095992"/>
+</kw>
+<status status="PASS" start="2024-10-13T04:54:15.232703" elapsed="3.749335"/>
 </kw>
 <kw name="Add Product to Cart" owner="Amazon">
+<kw name="Add to Card" owner="Product">
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-10-12T16:10:55.381313" level="INFO">Clicking button 'id=add-to-cart-button'.</msg>
+<msg time="2024-10-13T04:54:18.990037" level="INFO">Clicking button 'id=add-to-cart-button'.</msg>
 <arg>id=add-to-cart-button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-10-12T16:10:55.380313" elapsed="43.149195"/>
+<status status="PASS" start="2024-10-13T04:54:18.982038" elapsed="43.115701"/>
 </kw>
+<status status="PASS" start="2024-10-13T04:54:18.982038" elapsed="43.115701"/>
+</kw>
+<kw name="Verify Product Added" owner="Cart">
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
 <arg>Added to Cart</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2024-10-12T16:11:38.529508" elapsed="0.080080"/>
+<status status="PASS" start="2024-10-13T04:55:02.105803" elapsed="0.054049"/>
 </kw>
-<status status="PASS" start="2024-10-12T16:10:55.380313" elapsed="43.229275"/>
+<status status="PASS" start="2024-10-13T04:55:02.097739" elapsed="0.062113"/>
+</kw>
+<status status="PASS" start="2024-10-13T04:54:18.982038" elapsed="43.177814"/>
 </kw>
 <kw name="Begin Checkout" owner="Amazon">
+<kw name="Proceed to Checkout" owner="Cart">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-10-12T16:11:38.611758" level="INFO">Clicking element 'css= #sc-buy-box-ptc-button &gt; span:nth-child(1) &gt; input:nth-child(1)'.</msg>
+<msg time="2024-10-13T04:55:02.159852" level="INFO">Clicking element 'css= #sc-buy-box-ptc-button &gt; span:nth-child(1) &gt; input:nth-child(1)'.</msg>
 <arg>css= #sc-buy-box-ptc-button &gt; span:nth-child(1) &gt; input:nth-child(1)</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-10-12T16:11:38.611758" elapsed="2.518098"/>
+<status status="PASS" start="2024-10-13T04:55:02.159852" elapsed="2.739425"/>
 </kw>
+<status status="PASS" start="2024-10-13T04:55:02.159852" elapsed="2.739425"/>
+</kw>
+<kw name="Verify Page Loaded" owner="SignIn">
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2024-10-12T16:11:41.147845" level="INFO">Current page contains text 'Sign in'.</msg>
+<msg time="2024-10-13T04:55:04.916267" level="INFO">Current page contains text 'Sign in'.</msg>
 <arg>Sign in</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2024-10-12T16:11:41.129856" elapsed="0.018990"/>
+<status status="PASS" start="2024-10-13T04:55:04.901275" elapsed="0.015991"/>
 </kw>
-<status status="PASS" start="2024-10-12T16:11:38.610756" elapsed="2.538090"/>
+<status status="PASS" start="2024-10-13T04:55:04.900276" elapsed="0.016990"/>
+</kw>
+<status status="PASS" start="2024-10-13T04:55:02.159852" elapsed="2.757414"/>
 </kw>
 <kw name="End Web Test" owner="Common">
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-10-12T16:11:41.149845" elapsed="3.614674"/>
+<status status="PASS" start="2024-10-13T04:55:04.918265" elapsed="3.813096"/>
 </kw>
-<status status="PASS" start="2024-10-12T16:11:41.148846" elapsed="3.615673"/>
+<status status="PASS" start="2024-10-13T04:55:04.918265" elapsed="3.813096"/>
 </kw>
-<doc>This is some basic info about the test</doc>
-<tag>Smoke</tag>
-<status status="PASS" start="2024-10-12T16:10:37.283993" elapsed="67.481552"/>
+<status status="PASS" start="2024-10-13T04:53:59.206669" elapsed="69.524692"/>
 </test>
 <doc>This is some basic info about the whole suite</doc>
-<status status="PASS" start="2024-10-12T16:10:36.927783" elapsed="67.841623"/>
+<status status="PASS" start="2024-10-13T04:53:58.649180" elapsed="70.090405"/>
 </suite>
 <statistics>
 <total>
 <stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0" skip="0">Smoke</stat>
 </tag>
 <suite>
 <stat pass="1" fail="0" skip="0" id="s1" name="Amazon">Amazon</stat>

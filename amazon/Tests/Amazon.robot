@@ -7,8 +7,6 @@ Resource    ../Resources/Common.robot
 *** Test Cases ***
 
 User must sign in to check out
-    [Documentation]     This is some basic info about the test
-    [Tags]      Smoke
 
     Common.Begin Web Test
 

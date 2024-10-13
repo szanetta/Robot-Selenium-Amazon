@@ -1,0 +1,17 @@
+1728788040329	geckodriver	INFO	Listening on 127.0.0.1:53054
+1728788043446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53055" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileXpoXYT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1728788044495	Marionette	INFO	Marionette enabled
+1728788045127	Marionette	INFO	Listening on port 53064
+WebDriver BiDi listening on ws://127.0.0.1:53055
+Read port: 53064
+1728788045479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53055/devtools/browser/320ef41a-2d35-4b8a-9c11-c098211b2966
+JavaScript warning: https://www.amazon.com/, line 1888: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/s?k=Ferrari+458&ref=nb_sb_noss, line 6072: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Bburago-Ferrari-Pista-Diecast-Model/dp/B07NDLL77T/ref=sr_1_1?dib=eyJ2IjoiMSJ9.U--NHNSojewyph4Bxn0FW0czP7dr7kkwC-Ngk5cJqsANeCFMTMa5WkWxEKcSyOKeMVQ3arMTMwPJwvgYL8qecwhsI8v63IOqpZzR0oCLiIBYq5tyCM7hWf56RWFtVsZRi57iLbIAM2k7ni6XAAPcvZeucY107SIaw_BrPk50vb1e-lSD7dtuFzme3Z_rnsR_6DKeE0s-dKwrug7vihFwDOBY1d1n_ov1gPpvRFNpm828Awaw2NQiMzYsjpwIs-_mcIy5oK5bIzFelmFvw44IjTjLTxvvc7v8hwEdhLYPohI.zUgR-4yX-gaL6g-hTaoNQNRb1iw0ALf4F6npB0S3QvA&dib_tag=se&keywords=Ferrari+458&qid=1728788052&sr=8-1, line 11624: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/cart/add-to-cart/ref=dp_start-bbf_1_glance, line 3038: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1728788104920	Marionette	INFO	Stopped listening on port 53064
+Dynamically enable window occlusion 1
